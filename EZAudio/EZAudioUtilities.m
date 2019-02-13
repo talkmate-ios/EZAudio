@@ -537,10 +537,10 @@ BOOL __shouldExitOnCheckResultFail = YES;
         // no, format it as an integer
         sprintf(errorString, "%d", (int)result);
     fprintf(stderr, "Error: %s (%s)\n", operation, errorString);
-    if (__shouldExitOnCheckResultFail)
-    {
-        exit(-1);
-    }
+//    if (__shouldExitOnCheckResultFail)
+//    {
+//        exit(-1);
+//    }
 }
 
 //------------------------------------------------------------------------------
